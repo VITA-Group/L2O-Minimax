@@ -4,7 +4,7 @@
 
 Code for this paper [Learning a Minimax Optimizer: A Pilot Study](https://openreview.net/forum?id=nkIDwI6oO4_)
 
-Jiayi Shen\*, Xiaohan Chen\*, Howard Heaton, Tianlong Chen, Jialin Liu, Wotao Yin, Zhanyang Wang
+Jiayi Shen\*, Xiaohan Chen\*, Howard Heaton, Tianlong Chen, Jialin Liu, Wotao Yin, Zhangyang Wang
 
 ## Overview
 
