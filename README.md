@@ -30,12 +30,7 @@ The configuation files are stored in `/config` folder, depicting the experimenta
 
 ### Toy Examples Using Twin-L2O
 
-Four examples are demonstrated, where $a \sim U[0.9,1]$, $b \sim U[0.9,1]$.
-
-- Saddle $\min _{x} \max _{y} ax^2-by^2$
-- Rotated Saddle  $\min _{x} \max _{y} ax^2-by^2+2xy$
-- Seesaw  $\min _{x} \max _{y} -bvsin(a \pi u)$
-- Matrix Game $\min _{\mathbf{x}} \max _{\mathbf{y}} \mathbf{x}^{T} \mathbf{A} \mathbf{y}, \mathbf{A} \in \mathbb{R}^{5 \times 5}, \mathbf{A}_{i, j} \sim \operatorname{Bernoulli}(0.5) \cdot U[-1,1]$
+![](img/problems.png)
 
 #### Dataset
 
@@ -78,14 +73,14 @@ To perform training for Twin-L2O without curriculum Learning (Non-CL):
 
 ```shell
 python Twin-L2O.py --config seesaw_range2_train 
-# the same applies for other paramter ranges
+# the same applies for other parameter ranges
 ```
 
 To perform training for Twin-L2O with Curriculum Learning (CL): 
 
 ```shell
 python Twin-L2O.py --config seesaw_range2_CL_train 
-# the same applies for other paramter ranges
+# the same applies for other parameter ranges
 ```
 
 #### Testing
@@ -94,14 +89,14 @@ To perform testing for Twin-L2O without curriculum Learning (Non-CL):
 
 ```shell
 python Twin-L2O.py --config seesaw_range2_test 
-# the same applies for other paramter ranges
+# the same applies for other parameter ranges
 ```
 
 To perform testing for Twin-L2O with Curriculum Learning (CL):
 
 ```shell
 python Twin-L2O.py --config seesaw_range2_CL_test 
-# the same applies for other paramter ranges
+# the same applies for other parameter ranges
 ```
 
 ## Acknowledgement
