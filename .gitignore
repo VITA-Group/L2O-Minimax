@@ -167,3 +167,6 @@ ehthumbs.db
 Thumbs.db
 @turtledb
 
+# Temp files
+.*.swp
+
