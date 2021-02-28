@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-Code for this paper [Learning a Minimax Optimizer: A Pilot Study]()
+Code for this paper [Learning a Minimax Optimizer: A Pilot Study](https://openreview.net/pdf?id=nkIDwI6oO4_)
 
 Jiayi Shen\*, Xiaohan Chen\*, Howard Heaton*, Tianlong Chen, Jialin Liu, Wotao Yin, Zhangyang Wang
 
